@@ -32,7 +32,6 @@ jobs:
         working-directory: loconotion
       - name: Push to GitHub pages
         run: |
-          git checkout main
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
